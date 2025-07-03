@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<style>
+  body {
+    font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+    /* rest of your styles */
+  }
+</style>
+  <title>For Prayer Wendo ❤️</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fff0f5;
+      color: #4b0082;
+      padding: 30px;
+      overflow-x: hidden;
+      
+    }
+
+    h1 {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .poem {
+      display: none;
+      margin-top: 20px;
+      color: #c71585;
+      font-style: italic;
+      white-space: pre-wrap;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .heart {
+      position: fixed;
+      animation: float 4s infinite ease-in-out;
+      font-size: 24px;
+      color: red;
+      opacity: 0.6;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0) rotate(0); opacity: 1; }
+      100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+     <h1>Hello, Prayer my love 💕</h1>
+  <p>How are you? Hope you've been good hunny.As you were away my love, I decided to write you a love poem and sweet words for you.</p>
+
+  <p><strong>Would you want to read it and know what it is?</strong></p>
+  <button onclick="showPoem()">Yes</button>
+  <button onclick="noThanks()">No</button>
+
+  <div class="poem" id="poem"></div>
+
+  <script>
+    function showPoem() {
+      document.getElementById("poem").style.display = "block";
+      document.getElementById("poem").innerText = 
+        "Here’s a romantic poem just for you sweetheart:\n\n" +
+        "In halls of learning you now roam,\n" +
+        "While I sit here, all alone.\n" +
+        "But though the miles may keep us two,\n" +
+        "My heart still beats in love for you.\n\n" +
+        "Your smile, your voice, your gentle way,\n" +
+        "Stay with me through each lonely day.\n" +
+        "You're not just near, you're in my soul,\n" +
+        "The missing part that makes me whole.\n\n" +
+        "So chase your dreams, go rise and shine,\n" +
+        "Just know your heart is safe in mine.\n" +
+        "One day soon, we’ll be as one —\n" +
+        "My Prayer, my love, my rising sun. 🌞";
+    }
+
+    function noThanks() {
+      document.getElementById("poem").style.display = "block";
+      document.getElementById("poem").innerText = 
+        "It's okay darling if you don't want to hear,\n" +
+        "But I really love you so much, beib ❤️.\n when you feel like you need to read just know i will be glad sweetie";
+    }
+
+    // ❤️ Floating hearts animation
+    setInterval(() => {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.style.left = Math.random() * window.innerWidth + "px";
+      heart.textContent = "❤️";
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 4000);
+    }, 300);
+  </script>
+
+    <!-- 🎵 Music with Controls -->
+    <p>This the song i have dedicated to you sweetheart</p>
+<audio id="bgMusic" src="love.mp3" loop autoplay  style="margin-top: 20px; width: 100%; max-width: 300px;">
+  Your browser does not support the audio element.
+</audio>
+    <script>
+  const audio = document.getElementById("bgMusic");
+  window.addEventListener("click", () => {
+    audio.play().catch(err => console.log("Autoplay blocked:", err));
+  });
+</script>
+<p><b>We are both meant for each other</b></p>
+<h2 style="text-align: center; color: hotpink;"><u><i>My Beautiful sweetheart Prayer Wendo and her Lover Jose.😍</i></u></h2>
+
+<img src="BeautyPlus_20250703153946306_save~2.jpg" alt="My Love" style="
+  width: 95vw;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px pink;
+">
+<div class="click">
+    <p>Tap <a href="gallery.html">Click here</a> to view Prayer and Jose moments</p>
+    </div>
+    <style>
+        .click{
+            background-color:pink;
+        }
+    </style>
+</body>
+ <!-- 💓 Marquee message -->
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="
+    color: hotpink;
+    font-size: 20px;
+    font-weight: bold;
+    background: #fff0f5;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  ">
+    💓👄💓 Joseph, your lover is always madly in love with you no matter what.I love you so much Wish 💓👄💓😘🌹❤️
+  </marquee>
+</html>
